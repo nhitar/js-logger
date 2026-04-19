@@ -8,7 +8,11 @@ function scheduleTask(name, interval, task) {
   setInterval(task, interval);
 }
 
-log("scheduler.js file started.");
-scheduleTask("run logger", config.intervalMsec, () => {
-  log("running.");
-});
+function initScript() {
+  log("scheduler.js file started.");
+  scheduleTask("run logger", config.intervalMsec, () => {
+    log("running.");
+  });
+}
+
+initScript();
