@@ -4,5 +4,7 @@
   "description": "JS logger app.",
   "license": "ISC",
   "type": "module",
-  "scripts": {}
+  "scripts": {
+    "start": "node scheduler.js"
+  }
 }
