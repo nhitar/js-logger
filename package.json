@@ -1,0 +1,8 @@
+{
+  "name": "js-logger",
+  "version": "1.0.0",
+  "description": "JS logger app.",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {}
+}
