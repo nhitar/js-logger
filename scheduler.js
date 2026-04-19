@@ -1,7 +1,7 @@
 import { config } from "./config.js";
-import { loggerWrapper } from "./logger.js";
+import { createLogger } from "./logger.js";
 
-const log = loggerWrapper();
+const log = createLogger();
 
 function scheduleTask(name, interval, task) {
   log(`Task "${name}" with interval ${interval} msec started.`);
